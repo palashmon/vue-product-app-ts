@@ -37,7 +37,18 @@
       "@vue/airbnb",
       "@vue/typescript"
     ],
-    "rules": {},
+    "rules": {
+      "no-param-reassign": [
+        2,
+        {
+          "props": false
+        }
+      ],
+      "semi": [
+        2,
+        "always"
+      ]
+    },
     "parserOptions": {
       "parser": "@typescript-eslint/parser"
     }

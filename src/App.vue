@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <FilterableProductTable :products="products"/>
   </div>
 </template>
 
 <script lang="ts">
+import JsonApi from './api';
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import FilterableProductTable from './components/FilterableProductTable.vue';
+import Product from '@/interfaces/Product';
 
 @Component({
   components: {
-    HelloWorld,
+    FilterableProductTable,
   },
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+  products: Array<Product> = JsonApi.getAllProducts();
+}
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
