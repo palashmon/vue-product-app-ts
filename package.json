@@ -19,7 +19,7 @@
     "@vue/cli-plugin-typescript": "^4.0.0",
     "@vue/cli-service": "^4.0.0",
     "@vue/eslint-config-airbnb": "^5.3.0",
-    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^7.10.0",
     "eslint-plugin-vue": "^7.0.0",
