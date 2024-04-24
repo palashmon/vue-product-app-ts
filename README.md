@@ -1,4 +1,4 @@
-# vue-product-app-ts
+# vue-product-app-ts [![CI](https://github.com/palashmon/vue-product-app-ts/actions/workflows/main.yml/badge.svg)](https://github.com/palashmon/vue-product-app-ts/actions/workflows/main.yml)
 
 Building a searchable product data table using Vue + TypeScript
 
