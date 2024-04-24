@@ -1,0 +1,7 @@
+name: Auto-approve PR
+on: pull_request_target
+permissions:
+  pull-requests: write
+jobs:
+  approve:
+    uses: palashmon/reusable-workflows/.github/workflows/auto-approve.yml@main
