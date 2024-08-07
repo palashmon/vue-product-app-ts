@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.37.1",
+    "core-js": "^3.38.0",
     "vue": "^2.7.16",
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2"
@@ -23,7 +23,7 @@
     "@babel/eslint-parser": "7.25.1",
     "eslint": "8.57.0",
     "eslint-plugin-vue": "8.7.1",
-    "lint-staged": "15.2.7",
+    "lint-staged": "15.2.8",
     "typescript": "5.5.4",
     "vue-template-compiler": "2.7.16"
   },
